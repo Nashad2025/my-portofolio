@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+body
+{
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+}
+header{
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+     
+}
+section{
+    padding: 30px 20px;
+    margin-bottom: 0 auto 30px;
+    border-bottom: none;
+   
+}
+h2{
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+ul {
+    padding-left: 0px;
+    list-style-position: inside;
+    margin-left: 0px;
+}
+li{
+    padding-left: 0px;
+    margin: 5px 0;
+}
+.project{
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.container{
+    padding: 40px 20px;
+
+h1{
+    margin-bottom: 10px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color:#222;
+text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+.btn :hover
+{
+  
+    background: #0056b3;
+    color:white;
+}
+.social{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.social a{
+    font-size: 30px;
+    margin: 0 250px;
+    color: #333;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background: #f4f4f4;
+    margin-top: 5pxpx;
+    font-size: 14px;
+    color: #666;
+}
+
+.social i{
+    font-size: 32px;
+    color: #000;
+    margin: 0 200px;
+}
+@media(max-width: 768px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+nav a {
+    margin: 5px 0 ;
+    display: block;
+}
+
+
+.about{
+    margin-top: 40px;
+    padding: 0 20px;
+}
+.about h2{
+    margin-bottom: 10px;
+}
+.about p{
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #555;
+}
+
+.social-icon i{
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+}
+.social-icon span{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.whatsapp{color: #25d366;}
+.instagram{color: #e1306c;}
+.tiktok{color: #000000;}
+.social-icon.whatsapp :hover{
+    background-color: rgb(37,211,102,0.1);
+}
+.social-icon.instagram :hover{
+    background-color: rgb(225,48,108,0.1);
+}
+.social-icon.tiktok :hover{
+    background-color: rgb(0, 0,0,0.05);
+}
+.skills{
+    margin-top: 60px;
+    text-align: center;
+}
+.skills ul{
+    list-style-position: inside;
+    padding: 0;
+}
+.skills li{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px 15px;
+    background: #eaeaea;
+    border-radius: 20px;
+    font-size: 14px;
+}
+}
+
+#contact{
+    text-align: center;
+    margin-top: auto;
+}
+h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+@media  (min-width: 601px) and (max-widht:900px)
+{
+section{
+    padding: 25px 15px;
+}
+.project{
+    margin-top: 15px;
+}
+}
+@media (min-width:901px){
+    section {
+        padding: 30px 20px;
+    }
+}
+    
+
+
+
